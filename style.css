@@ -156,5 +156,13 @@ a:active{
         padding: 2%;
     }
 
+    #subscribe{
+        padding: 2% 2% 1.8% 2%;
+        margin-bottom: 2%;
+        background: #8DB4C6;
+        border-style: solid;
+        border-width: thin 0;
+        border-color: black;
+    }
 
 }
