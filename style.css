@@ -15,7 +15,7 @@ h4, h5{
 }
 
 a{
-    color: black;
+    color: inherit;
 }
 a:hover{
     color: #8c9c09;
@@ -51,9 +51,24 @@ a:active{
     color: white;
 }
 
+.divideLeft{
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-left-color: #8DB4C6;
+}
+.divideRight{
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-right-color: #8DB4C6;
+}
+
 #heroCaption{
     padding: 4% 3%;
     background-color: rgba(0, 0, 0, 0.4);
+}
+
+#middle{
+    margin: 3% 0;
 }
 
 @media only screen and (min-width: 576px){ /* for mobile*/
@@ -112,7 +127,7 @@ a:active{
     }
     h2{
         font-size: 2.5em;
-        color: #232e27;
+        color: #576B4E;
     }
     h3{
         font-size: 2em;
@@ -140,6 +155,14 @@ a:active{
         font-size: .8em;
         padding-left: 1%;
     }
+    .connectIcon{
+        font-size: 5em;
+        color: #8DB4C6;
+    }
+
+    .footSpace{
+        height: 20px;
+    }
 
     #navigation{
         background: #232e27;
@@ -165,4 +188,23 @@ a:active{
         border-color: black;
     }
 
+    #connect{
+        margin: 4% 0 0 0;
+        padding: 3% 0;
+        border: 2px solid black;
+        text-align: center;
+        background: white;
+    }
+
+    #footer{
+        background: #232E27;
+    }
+    #footer .list-group .list-group-item{
+        background: inherit;
+        border-color: #E2E6E4;
+        color: white;
+    }
+    #footer .list-group .list-group-item h5{
+        color:#8DB4C6;
+    }
 }
