@@ -1,6 +1,5 @@
 html, body{
     height: 100%;
-    background: #E2E6E4;
 }
 p{
     font-family: 'Open Sans', sans-serif;    
@@ -23,6 +22,14 @@ a:hover{
 }
 a:active{
     color: #7a880f;
+}
+
+.bg{
+    background: #E2E6E4;
+    background-image: url(images/background-15.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: bottom center;
 }
 
 .navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover{
@@ -197,11 +204,15 @@ a:active{
         padding: 3% 0;
         border: 2px solid black;
         text-align: center;
-        background: white;
+        background: rgba(255, 255, 255, 0.2);
     }
 
     #footer{
-        background: #232E27;
+        background-image: url(images/background-20.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: bottom;
+        background-color: #232E27;
     }
     #footer .list-group .list-group-item{
         background: inherit;
