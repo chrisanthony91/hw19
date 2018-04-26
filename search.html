@@ -4,12 +4,12 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="format-detection" content="telephone=no">
-        <title>Contact the Interior</title>
+        <title>Search the Interior</title>
         <link href="normalize.css" type="text/css" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Merriweather:900|Open+Sans:300,400,600i" rel="stylesheet">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-        <link href="contactStyle.css" type="text/css" rel="stylesheet">
+        <link href="searchStyle.css" type="text/css" rel="stylesheet">
         <!-- Hotjar Tracking Code for https://lafmaster.github.io/hw19/ -->
         <script>
             (function(h,o,t,j,a,r){
@@ -108,99 +108,79 @@
             </div>
         </nav>
 
-        <section class="jumbotron jumbotron-fluid" id="hero">
-            <div class="container-fluid full"></div>
-        </section>
-
-        <section class="container-fluid" id="pageTitle">
-            <div class="row">
+        <section class="container-fluid">
+            <div class="row" id="pageTitle">
                 <div class="col-12">
-                    <h2>Contact the Interior</h2>
-                    <h4>Questions or concerns? Here’s how you can reach us</h4>
+                    <h2>Search</h2>
                 </div>
             </div>
-        </section>
-
-        <div class="bg"> <!-- bg class sets background -->
-            <section class="container-fluid pad-5">
-                <div class="row">
-                    <div class="col-lg-6"><!-- left side -->
-                        <div class="contact">
-                            <ul class="list-group list-group-flush" style="margin: 0 10%;">
-                                <li class="list-group-item">
-                                    <h5><i class="fas fa-map-marker-alt"></i> Department of the Interior
-                                    <br>1849 C Street, N.W.
-                                    <br>Washington DC 20240
-                                    </h5>
-                                </li>
-                                <li class="list-group-item"><h5><i class="fas fa-envelope"></i> feedback@jos.doi.gov</h5></li>
-                                <li class="list-group-item"><h5><i class="fas fa-phone"></i> (202) 208-3100</h5></li>
-                            </ul>
-                            <div class="row">
-                                <div class="col-12">
-                                    <h5 style="padding: 10px 10%;">Follow the Interior</h5>
-                                </div>
-                                <div class="col-2"></div>
-                                <div class="col-2">
-                                    <a href="https://www.facebook.com/USInterior"><i class="fab fa-facebook-square" style="font-size: 3em;"></i></a>
-                                </div>
-                                <div class="col-2">
-                                    <a href="https://www.instagram.com/usinterior"><i class="fab fa-instagram" style="font-size: 3em;"></i></a>
-                                </div>
-                                <div class="col-2">
-                                    <a href="https://twitter.com/Interior"><i class="fab fa-twitter-square" style="font-size: 3em;"></i></a>
-                                </div>
-                                <div class="col-2">
-                                    <a href="https://www.youtube.com/user/USInterior"><i class="fab fa-youtube" style="font-size: 3em;"></i></a>
-                                </div>
-                                <div class="col-2"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6" style="padding: 0 5%"> <!--contact form -->
-                        <form>
-                            <div class="form-group">
-                                <label for="exampleInputEmail1">Email address</label>
-                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-                            </div>
-                            <div class="form-group">
-                                <label for="exampleInputPassword1">Password</label>
-                                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-                            </div>
-                            <div class="form-group">
-                                <label for="exampleFormControlTextarea1">Comments</label>
-                                <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Enter your message" rows="4"></textarea>
-                            </div>
-                            <div class="form-check">
-                              <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                              <label class="form-check-label" for="exampleCheck1">I am not a robot</label>
-                            </div>
-                            <button type="submit" class="btn btn-success">Submit</button>
-                        </form>
-                    </div>
+            <div class="row">
+                <div class="col-12" id="results">
+                    <h4 style="margin: 30px 0 50px 0;">Results for: <i></i>"Is secretary Zinke a geologist?"</h4>
+                    <table class="table table-striped">
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <b>First Search Result</b>
+                                    <br><i>www.pagelinkwillgohere.com</i>
+                                    <br>Page description goes here
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <b>Second Search Result</b>
+                                    <br><i>www.pagelinkwillgohere.com</i>
+                                    <br>Page description goes here
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <b>Third Search Result</b>
+                                    <br><i>www.pagelinkwillgohere.com</i>
+                                    <br>Page description goes here
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <b>Fourth Search Result</b>
+                                    <br><i>www.pagelinkwillgohere.com</i>
+                                    <br>Page description goes here
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <b>Fifth Search Result</b>
+                                    <br><i>www.pagelinkwillgohere.com</i>
+                                    <br>Page description goes here
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
-            </section>
+            </div>
 
-            <nav aria-label="pages" style="padding-bottom: 10px;">
-                    <ul class="pagination justify-content-center">
-                        <li class="page-item">
-                            <a class="page-link" href="search.html">Previous</a>
-                        </li>
-                        <li class="page-item"><a class="page-link" href="index.html">1</a></li>
-                        <li class="page-item"><a class="page-link" href="search.html">2</a></li>
-                        <li class="page-item active">
-                            <span class="page-link">
-                                3
-                                <span class="sr-only">(current)</span>
-                            </span>
-                        </li>
-                        <li class="page-item"><a class="page-link" href="#">4</a></li>
-                        <li class="page-item">
-                            <a class="page-link" href="#">Next</a>
-                        </li>
-                    </ul>
-                </nav>
+            <nav aria-label="pages">
+                <ul class="pagination justify-content-center">
+                    <li class="page-item">
+                        <a class="page-link" href="index.html">Previous</a>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="index.html">1</a></li>
+                    <li class="page-item active">
+                        <span class="page-link">
+                            2
+                            <span class="sr-only">(current)</span>
+                        </span>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="contact.html">3</a></li>
+                    <li class="page-item"><a class="page-link" href="#">4</a></li>
+                    <li class="page-item">
+                        <a class="page-link" href="contact.html">Next</a>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+    
+        
 
             <section class="container-fluid" id="footer">
                 <div class="row">

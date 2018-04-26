@@ -78,9 +78,19 @@ a:active{
     background-color: rgba(0, 0, 0, 0.4);
 }
 
+#subscribe{
+    padding: 2% 2% 1.8% 2%;
+    margin-bottom: 2%;
+    background: #8DB4C6;
+    border-style: solid;
+    border-width: thin 0;
+    border-color: black;
+}
+
 #middle{
     margin: 3% 0;
 }
+
 
 @media only screen and (min-width: 576px){ /* for mobile*/
     h1{
@@ -190,14 +200,7 @@ a:active{
         padding: 2%;
     }
 
-    #subscribe{
-        padding: 2% 2% 1.8% 2%;
-        margin-bottom: 2%;
-        background: #8DB4C6;
-        border-style: solid;
-        border-width: thin 0;
-        border-color: black;
-    }
+    
 
     #connect{
         margin: 4% 0 0 0;
