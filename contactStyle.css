@@ -54,31 +54,6 @@ a:active{
     height:100%;
 }
 
-.white{
-    color: white;
-}
-
-.divideLeft{
-    border-left-style: solid;
-    border-left-width: 1px;
-    border-left-color: #8DB4C6;
-}
-.divideRight{
-    border-right-style: solid;
-    border-right-width: 1px;
-    border-right-color: #8DB4C6;
-}
-.greenDivideLeft{
-    border-left-style: solid;
-    border-left-width: 1px;
-    border-left-color: #576B4E;
-}
-.greenDivideRight{
-    border-right-style: solid;
-    border-right-width: 1px;
-    border-right-color: #576B4E;
-}
-
 .fa:hover{
     color: #8c9c09;
 }
@@ -99,26 +74,22 @@ a:active{
     border-color: #8DB4C6;
 }
 
-#heroCaption{
-    padding: 1% 3%;
-    background-color: rgba(0, 0, 0, 0.4);
-}
 
 @media only screen and (min-width: 576px){ /* for mobile*/
     h1{
-        font-size: 6em;
-    }
-    h2{
-        font-size: 4em;
-    }
-    h3{
         font-size: 3em;
     }
+    h2{
+        font-size: 2em;
+    }
+    h3{
+        font-size: 1.5em;
+    }
     h4{
-        font-size: 2.5em;
+        font-size: 1.4em;
     }
     h5{
-        font-size: 1.5em;
+        font-size: 1.2em;
     }
     p{
         font-size: 1.1em;
@@ -131,22 +102,22 @@ a:active{
 
 @media only screen and (min-width: 768px){ /* for tablet*/
     h1{
-        font-size: 6em;
-    }
-    h2{
         font-size: 4em;
     }
+    h2{
+        font-size: 2.5em;
+    }
     h3{
-        font-size: 3em;
+        font-size: 2em;
     }
     h4{
-        font-size: 2.5em;
+        font-size: 1.7em;
     }
     h5{
         font-size: 1.5em;
     }
     p{
-        font-size: 1.2em;
+        font-size: 1.1em;
     }
 
     #navigation{
