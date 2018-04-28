@@ -74,6 +74,10 @@ a:active{
     cursor: pointer;
 }
 
+#navigation{
+    background: #232e27;
+}
+
 #heroCaption{
     padding: 1% 3%;
     background-color: rgba(0, 0, 0, 0.4);
@@ -137,10 +141,6 @@ a:active{
     p{
         font-size: 1.1em;
     }
-
-    #navigation{
-        background: #232e27;
-    }
 }
 
 @media only screen and (min-width: 992px){ /* for desktop*/
@@ -186,10 +186,6 @@ a:active{
         height: 20px;
     }
 
-    #navigation{
-        background: #232e27;
-    }
-
     #hero{
         padding-top: 0;
         padding-bottom: 0;
@@ -200,8 +196,6 @@ a:active{
     #news{
         padding: 2%;
     }
-
-    
 
     #connect{
         margin: 4% 0 0 0;

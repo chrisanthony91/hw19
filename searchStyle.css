@@ -39,6 +39,10 @@ a:active{
     color: #E2E6E4;
 }
 
+#navigation{
+    background: #232e27;
+}
+
 @media only screen and (min-width: 576px){ /* for mobile*/
     h1{
         font-size: 3em;
@@ -57,10 +61,6 @@ a:active{
     }
     p{
         font-size: 1.1em;
-    }
-
-    #navigation{
-        background: #232e27;
     }
 }
 
@@ -82,10 +82,6 @@ a:active{
     }
     p{
         font-size: 1.1em;
-    }
-
-    #navigation{
-        background: #232e27;
     }
 }
 
@@ -116,10 +112,6 @@ a:active{
 
     .footSpace{
         height: 20px;
-    }
-
-    #navigation{
-        background: #232e27;
     }
 
     #pageTitle{

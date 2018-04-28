@@ -68,10 +68,13 @@ a:active{
     padding: 0;
 }
 
+#navigation{
+    background: #232e27;
+}
+
 #nature, #hc, #officials{
     padding: 2%;
 }
-
 
 @media only screen and (min-width: 576px){ /* for mobile*/
     h1{
@@ -91,10 +94,6 @@ a:active{
     }
     p{
         font-size: 1.1em;
-    }
-
-    #navigation{
-        background: #232e27;
     }
 }
 
@@ -116,10 +115,6 @@ a:active{
     }
     p{
         font-size: 1.1em;
-    }
-
-    #navigation{
-        background: #232e27;
     }
 }
 
@@ -158,10 +153,6 @@ a:active{
     }
     .pad-5{
         padding: 5%;
-    }
-
-    #navigation{
-        background: #232e27;
     }
 
     #pageTitle{

@@ -65,15 +65,20 @@ a:active{
     border-radius: 20px;
     background: #232E27;
 }
-#contact ul li{
-    padding-left: 0;
-    padding-right: 0;
-}
+
 .list-group-item{
     background: #232E27;
     border-color: #8DB4C6;
 }
 
+#navigation{
+    background: #232e27;
+}
+
+#contact ul li{
+    padding-left: 0;
+    padding-right: 0;
+}
 
 @media only screen and (min-width: 576px){ /* for mobile*/
     h1{
@@ -93,10 +98,6 @@ a:active{
     }
     p{
         font-size: 1.1em;
-    }
-
-    #navigation{
-        background: #232e27;
     }
 }
 
@@ -118,10 +119,6 @@ a:active{
     }
     p{
         font-size: 1.1em;
-    }
-
-    #navigation{
-        background: #232e27;
     }
 }
 
